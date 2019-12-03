@@ -27,7 +27,7 @@ SQL create usage mode:
 
 SQL query usage mode:
   -t , --table        Specify table name to use
-  -txto , --txtout    Writes the output of the query to a file speficied. Format (-fmt) is a tab-delimited text file by default
+  -txto , --txtout    Writes the output of the query to a file specified. Format (-fmt) is a tab-delimited text file by default
   -col , --columns    Select specific columns from the table to display (Default: all columns), or use with -n option to return n-counts. For information of the available columns see 'show-schema' or 'show-columns'. NOTE: options -e select must be applied!.
   -n , --count        Returns 'n' counts for the query. Options 'T' for True, if not 'F' (Default: -n F). NOTE: options -e select must be applied! and accepts only one column from -col option.
   -miR , --miRNA      Specify the miRNA names to query. For multiple miRNAs use comma(,) as separator; or text file (.txt) separated with new line character
